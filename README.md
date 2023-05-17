@@ -121,9 +121,9 @@ Twórcą tego jakże wspaniałego i monumentalnego projektu jestem ja.
 <!-- CONTACT -->
 ## Contact
 
-Inuff - [@YouTube](https://www.youtube.com/watch?v=dQw4w9WgXcQ) - gigasraka8@gmail.com
+Inuff - [@YouTube](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-Link projektu: [https://github.com/Inuff/ahaDobra](https://github.com/Inuff/ahaDobra)
+Link projektu: [https://github.com/PolarDevTaken/LosBollos_RekinEkspres](https://github.com/PolarDevTaken/LosBollos_RekinEkspres)
 
 <p align="right">(<a href="#readme-top">do góry</a>)</p>
 
