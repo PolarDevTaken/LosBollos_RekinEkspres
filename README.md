@@ -85,14 +85,14 @@ Projekcik ten będzie gotowy kiedyś i dobry będzie. Taki ładny, no taki dobry
 ### Twórca projektu
 
 Twórcą tego jakże wspaniałego i monumentalnego projektu jestem ja.
-  ```sh
+  
   ~~Jakub Nocon~~ Mateusz Jonecko c:
   
   (o, no i ci też pomogli)
   Golo Golnik
   Kuba noco?
   Michał Ssieprawki
-  ```
+  
 
 ### Wycenka
 
