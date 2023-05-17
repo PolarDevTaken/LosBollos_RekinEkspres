@@ -87,11 +87,12 @@ Projekcik ten będzie gotowy kiedyś i dobry będzie. Taki ładny, no taki dobry
 Twórcą tego jakże wspaniałego i monumentalnego projektu jestem ja.
   
   ~~Jakub Nocon~~ Mateusz Jonecko c:
-  
+  <br>
   (o, no i ci też pomogli)
-  Golo Golnik
-  Kuba noco?
-  Michał Ssieprawki
+  <br>
+  Golo Golnik<br>
+  Kuba Noco?<br>
+  Michał Ssieprawki<br>
   
 
 ### Wycenka
