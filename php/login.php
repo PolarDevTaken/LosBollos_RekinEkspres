@@ -6,10 +6,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST["password"];
 
     // Establish a database connection
-    $servername = "your_servername";
-    $database = "your_database";
-    $username_db = "your_username";
-    $password_db = "your_password";
+    $servername = "localhost";
+    $database = "delivery";
+    $username_db = "root";
+    $password_db = "";
 
     // Create a new PDO instance
     $conn = new PDO("mysql:host=$servername;dbname=$database", $username_db, $password_db);
@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $user = $stmt->fetch();
 
     // Check if the user exists and the password is correct
-    if ($user && password_verify($password, $user['password'])) {
+    if ($user && $password === $user['password']) {
         // Start a new session
         session_start();
 
@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION["user_id"] = $user["id"];
 
         // Redirect to the home page or any other protected page
-        header("Location: home.php");
+        header("Location: account.php");
         exit();
     } else {
         // Display an error message
@@ -37,3 +37,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+
