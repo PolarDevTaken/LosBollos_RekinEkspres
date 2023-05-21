@@ -24,14 +24,14 @@ if (!isset($_SESSION["username"])) {
 <body>
     <div class="calosc">
         <header>
-            <img class="malpa" src="malpa.png" alt="logo firmy">
+            <img class="malpa" src="../css/logo.png" alt="logo firmy">
             <h2 class="maintxt">REGINEXPRESS</h2>
             <div class="dobra">
             <?php
             echo "Welcome, " . $_SESSION["username"] . "!";
             ?>
             </div>
-            <a href="account.php"><img class="pfp" src="pfp.png" alt="profile picture"></a>
+            <a href="account.php"><img class="pfp" src="../css/pfp.png" alt="profile picture"></a>
         </header>
         <section class="main">
             
