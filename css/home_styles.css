@@ -1,16 +1,16 @@
 @font-face {
     font-family: Inter;
-    src: url(Inter-Regular.otf);
+    src: url(../fonts/Inter-Regular.otf);
 }
 @font-face {
     font-family: InterEB;
-    src: url(Inter-ExtraBold.otf);
+    src: url(../fonts/Inter-ExtraBold.otf);
 }
 body{
     margin: 0;
     width: 100%;
     height: 100%;
-    background-color: blanchedalmond;
+    background-color: #14181F;
 }
 .calosc{
     height: 100vh;
