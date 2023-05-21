@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Inter;
+    src: url(Inter-Regular.otf);
+}
+@font-face {
+    font-family: InterEB;
+    src: url(Inter-ExtraBold.otf);
+}
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: blanchedalmond;
+}
+.calosc{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(tlo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Inter';
+    color: #FFFF;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    width: 100%;
+    height: 18%;
+    background-color: rgba(42,41,58, .42);
+    line-height: 10vh;
+    backdrop-filter: blur(3px);
+}
+.malpa{
+    grid-column: 1;
+    width: 45%;
+    height: 70%;
+    justify-self: center;
+    align-self: center;
+}
+.pfp{
+    width: 30%;
+    height: 51%;
+    grid-column: 4;
+    position: absolute;
+    top: 7%;
+    right: 5%;
+}
+.dobra{
+    grid-column: 3;
+    justify-self: end;
+    align-self: center;
+    font-size: 2vw;
+}
+header>h2{
+    grid-column: 2;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 3vw;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 7fr ;
+    grid-template-rows: 1fr 1fr;
+    height: 82%;
+    width: 100%;
+}
+.first{
+    display: inline;
+    font-family: 'InterEB';
+    font-size: 4vw;
+    grid-column: 2;
+    grid-row: 1;
+    align-self: end;
+}
+.first>h3{
+    margin-bottom: 20px;
+}
+.first>h5{
+    margin: 0;
+}
+.orange{
+    color: #FF5B5B;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #FF5B5B;
+    width: 12%;
+    height: 14%;
+    border-radius: 30px;
+    margin-top: 5%;
+    font-size: 1vw;
+}
