@@ -70,7 +70,7 @@ Projekt ten jest stworzony dla firmy ReginExpress. będzie to strona do zamawian
 ### Zbudowane za pomocą
 
 * [![HTML][HTML.com]][HTML-url]
-* [![PHP][PHP.com]][PHP-url]
+* [![JS][JS.com]][JS-url]
 * [![MySQL][mySQL.com]][mySQL-url]
 
 <p align="right">(<a href="#readme-top">do góry</a>)</p>
@@ -166,6 +166,4 @@ Link projektu: [https://github.com/PolarDevTaken/LosBollos_RekinEkspres](https:/
 [mySQL-url]: https://mysql.com
 [JS.com]: https://img.shields.io/badge/JS-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JS-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-[PHP.com]: https://img.shields.io/badge/PHP-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[PHP-url]: https://www.php.net
 [product-screenshot]: glowna.jpg
