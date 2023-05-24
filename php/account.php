@@ -37,11 +37,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $updateStmt->execute();
 
     $role = "";
-    if ($user["role"] == 1) {
+    if ($user["role"] == 3) {
         $role = "Admin";
     } elseif ($user["role"] == 2) {
         $role = "Deliveryman";
-    } elseif ($user["role"] == 3) {
+    } elseif ($user["role"] == 1) {
         $role = "User";
     }
 
